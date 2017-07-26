@@ -1,7 +1,8 @@
 require 'spec_helper'
 
 RSpec.describe 'Paddle Configuration' do
-  let(:auth_code) { '13810b056faea70e05d8e95a271298631a4754e0103c12336e' }
+  let(:auth_code) { ENV['PADDLE_AUTH_CODE'] }
+
   before do
     Paddle.configure do |config|
       config.auth_code = auth_code
