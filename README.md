@@ -7,7 +7,7 @@ Unofficial Ruby SDK for the Paddle Dashboard API.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'paddle', git: 'https://github.com/aziflaj/paddle', branch: 'master'
+gem 'paddle', git: 'https://github.com/aziflaj/paddle-ruby-sdk', branch: 'master'
 ```
 
 And then execute:
@@ -33,7 +33,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/aziflaj/paddle. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/aziflaj/paddle-ruby-sdk](https://github.com/aziflaj/paddle-ruby-sdk). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
