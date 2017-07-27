@@ -1,5 +1,6 @@
 require 'paddle/version'
 require 'paddle/configuration'
+require 'paddle/products'
 
 module Paddle
   class << self
