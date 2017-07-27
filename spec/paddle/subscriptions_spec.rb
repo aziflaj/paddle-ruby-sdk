@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-RSpec.describe Paddle::Products do
+RSpec.describe Paddle::Subscriptions do
   context 'with valid credentials' do
     let(:vendor_id) { ENV['PADDLE_VENDOR_ID'] }
     let(:auth_code) { ENV['PADDLE_AUTH_CODE'] }
@@ -14,7 +14,7 @@ RSpec.describe Paddle::Products do
 
     describe '.list' do
       it 'lists products for valid configs' do
-        expect { Paddle::Products.list }.to_not raise_error
+        expect { Paddle::Subscriptions.list }.to_not raise_error
       end
     end
   end
@@ -29,7 +29,7 @@ RSpec.describe Paddle::Products do
 
     describe '.list' do
       it 'throws error for invalid configs' do
-        expect { Paddle::Products.list }.to raise_error(Paddle::Error)
+        expect { Paddle::Subscriptions.list }.to raise_error(Paddle::Error)
       end
     end
   end
