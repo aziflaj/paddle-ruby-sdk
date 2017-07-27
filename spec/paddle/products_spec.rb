@@ -14,7 +14,8 @@ RSpec.describe Paddle::Products do
       config.auth_code = auth_code
     end
 
-    Paddle::Products.list
+    expect{Paddle::Products.list}.to_not raise_error(Paddle::Error)
+
   end
 
   it 'throws error for invalid configs' do
